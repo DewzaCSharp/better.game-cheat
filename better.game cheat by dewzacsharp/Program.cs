@@ -200,7 +200,7 @@ public class Program
                 float customvaluespeed = float.Parse(customvaluestringspeed);
                 IntPtr modulebase1 = client.GetModuleBase("Protoverse.exe");
                 client.WriteFloat(modulebase1 + 0xDF1BF8, customvaluespeed);
-                Console.WriteLine("Set custom projectile speed.");
+                Console.WriteLine("Set custom max speed.");
                 Console.WriteLine("ENTER to go back...");
                 Console.ReadLine();
                 Main();
